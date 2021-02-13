@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save ender-forms
+npm install --save https://github.com/imbroisi/ender-forms
 ```
 
 ## Usage
@@ -18,9 +18,10 @@ import React, { Component } from 'react'
 import MyComponent from 'ender-forms'
 import 'ender-forms/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const Example = () => {
+    return (
+      <MyComponent />
+    )
   }
 }
 ```
